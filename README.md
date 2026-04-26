@@ -40,16 +40,21 @@ Authorization->Check permissions->What can you do?->After login->Access control-
 Think of a movie theater 🎬
 
 Authentication → Showing your ticket at entry
+
 ✔ “Are you a valid customer?”
+
 Authorization → Seat access
+
 ✔ “Can you sit in VIP or regular?”
-⚡ Key Differences
+
 
 
 
 🔥 HTTP Status Code Mapping (IMPORTANT)
 401 Unauthorized
 👉 Not logged in / invalid token
+
+
 👉 Authentication failed
 403 Forbidden
 👉 Logged in but no permission
