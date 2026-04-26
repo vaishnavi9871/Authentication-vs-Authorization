@@ -35,6 +35,8 @@ Try to access /admin
 ❌ Access denied → not authorized
 🔥 Simple Analogy (Easy to remember)
 
+Authorization->Check permissions->What can you do?->After login->Access control->403 Forbidden
+
 Think of a movie theater 🎬
 
 Authentication → Showing your ticket at entry
@@ -42,7 +44,7 @@ Authentication → Showing your ticket at entry
 Authorization → Seat access
 ✔ “Can you sit in VIP or regular?”
 ⚡ Key Differences
-Authorization->Check permissions->What can you do?->After login->Access control->403 Forbidden
+
 
 
 🔥 HTTP Status Code Mapping (IMPORTANT)
